@@ -1,0 +1,63 @@
+https://tuinen-herolds.be/contact/
+AIzaSyCG-O2FGgsaBN3GzSyBceBdcBVhzjAA2y4
+
+@media(max-width: 1900px) {
+    .grid {
+        grid-template-columns: repeat(6, 19%);
+        grid-gap: auto;
+        padding-right: 5%;
+    }
+    
+    .grid img{
+        max-width: 220px;
+    }
+}
+
+@media(max-width: 1500px) {
+    .grid {
+        grid-template-columns: repeat(6, 18%);
+        grid-gap: auto;
+        padding-right: 5%;
+    }
+
+    .grid img{
+        max-width: 210px;
+    }
+
+}
+
+@media(max-width: 1200px) {
+    .grid {
+        grid-template-columns: repeat(6, 15%);
+        grid-gap: auto;
+        padding-right: 5%;
+        
+    } 
+    
+  
+}
+
+@media(max-width: 900px) {
+    .grid {
+        grid-template-columns: repeat(6, 11%);
+        grid-gap: auto;
+        padding-right: 5%;
+    }
+
+    .grid img{
+        max-width: 195px;
+    }
+    
+}
+
+@media(max-width: 600px)  {
+    .grid {
+        grid-template-columns: repeat(6, 7%);
+        grid-gap: auto;
+        padding-right: 5%;
+    }
+    .grid img{
+        max-width: 190px;
+    }
+        
+}
